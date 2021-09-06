@@ -1,2 +1,2 @@
-# telegram_bot
+# Telegram bot
 News Telegram bot
