@@ -1,2 +1,2 @@
 # Telegram bot
-News Telegram bot
+News telegram bot
