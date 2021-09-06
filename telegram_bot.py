@@ -26,7 +26,7 @@ def news(update: Update, context: CallbackContext) -> None:
         str1 += item + "\n"
     update.message.reply_text(f'{str1}')
 
-updater = Updater('token')
+updater = Updater('telegram token')
 
 updater.dispatcher.add_handler(CommandHandler('hello', hello))
 updater.dispatcher.add_handler(CommandHandler('news', news))
